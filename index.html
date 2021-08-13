@@ -7,36 +7,80 @@
         <title>Newlife Assemblies of God Church | Homepage</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="styles.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
     </head>
+            
     <body>
 
         <header>
 
-        <div class="logo-letter">
-           <a href=""> <img src="images/newlife ag.png" class="ag-logo" width="70px" height="70px" alt="church logo">
-           </a>
-           <a href=""> <img src="images/newlife.png" class="ag-logo" width="70px" height="70px" alt="new logo">
-           </a>
-           
-           <div class="church-name">
-             <span>Newlife</span>
-             <span>Chapel AG</span>
-           </div>
+    <div class="logo-section">
+
+        <div class="logo-image">
+           <a href=""><img src="images/newlife ag.png" class="ag-logo" width="70px" height="70px" alt="church logo"></a>
+           <a href=""><img src="images/newlife.png" class="ag-logo" width="70px" height="70px" alt="new logo"></a>
        </div>
        
+       <div class="items">
        <ul class="nav-items">
            <a href="#"><li class="list-items">Home</li></a>
            <a href="#"><li class="list-items">About US</li></a>
            <a href="#"><li class="list-items">Departments</li></a>
-           <a href="#"><li class="list-items">Offerings</li></a>
-           <a href="#"><li class="list-items">Contact Us</li></a>
+           <a href="#"><li class="list-items">Newlife TV</li></a>
+           <a href="#"><li class="list-items">News</li></a>
+           <a href="#"><li class="list-items">Gallery</a>
+           <a href="#"><li class="list-items">Contact</a>
            <a href="#"><li class="list-items">Online Giving</a>
        </ul>
+       </div>
+    </div>
     
     </header>
 
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="slideshow-images/0f9938bc9dfbda56575b624dca7bd760.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="slideshow-images/2011-Kung-Fu-Panda-2-1366x768.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="slideshow-images/61ccb02b2d10fb40925754f87bc7877d.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  
+
+   </body>
+
         
-        <script src="" async defer></script>
+        <script src="main.js" async defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
